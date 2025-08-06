@@ -43,12 +43,21 @@ def render_mainpage():
     with col1:
         if st.button("🌿 Mustard Aphid", use_container_width=True):
             st.session_state.selected_module = "Mustard_Aphid"
+            st.session_state.uploaded_file = None
+            st.session_state.predicted_class = None
+
     with col2:
         if st.button("🌾 Mustard Powder", use_container_width=True):
             st.session_state.selected_module = "Mustard_Powder"
+            st.session_state.uploaded_file = None
+            st.session_state.predicted_class = None
+
     with col3:
         if st.button("🌾 Wheat White Ear", use_container_width=True):
             st.session_state.selected_module = "Wheat_White_ear"
+            st.session_state.uploaded_file = None
+            st.session_state.predicted_class = None
+
     st.markdown("---")
 
     # === LOAD SELECTED MODULE ===
