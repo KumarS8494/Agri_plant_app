@@ -5,27 +5,28 @@ from ui_about import render_about
 st.sidebar.title("🌿 CropsDiagnosis")
 st.sidebar.markdown("AI-powered Crops diagnosis")
 
-st.sidebar.markdown("""
+# --- Equal Width Fix for Sidebar Buttons ---
+sidebar_button_style = """
     <style>
-    .stButton > button {
+    div.stButton > button {
         width: 100% !important;
-        padding: 0.6rem 1rem;
-        font-size: 16px;
-        font-weight: 600;
+        text-align: left;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
         border-radius: 8px;
-        margin-bottom: 0.5rem;
     }
     </style>
-""", unsafe_allow_html=True)
-# --- Initialize Session State ---
+"""
+st.sidebar.markdown(sidebar_button_style, unsafe_allow_html=True)
+
+# --- Session State ---
 if "page" not in st.session_state:
     st.session_state.page = "Home"
 
-# --- Sidebar Navigation ---
+# --- Buttons (vertically stacked) ---
 if st.sidebar.button("🏠 Home"):
     st.session_state.page = "Home"
-
-if st.sidebar.button("📘 About the Project"):
+if st.sidebar.button("📘 About"):
     st.session_state.page = "About"
 
 # --- Route to Page ---
