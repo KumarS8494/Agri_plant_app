@@ -47,8 +47,8 @@ def render_mainpage():
             st.session_state.predicted_class = None
 
     with col2:
-        if st.button("🌾 Mustard Powder", use_container_width=True):
-            st.session_state.selected_module = "Mustard_Powder"
+        if st.button("🌾 Mustard Powdery", use_container_width=True):
+            st.session_state.selected_module = "Mustard_Powdery"
             st.session_state.uploaded_file = None
             st.session_state.predicted_class = None
 
@@ -63,7 +63,7 @@ def render_mainpage():
     # === LOAD SELECTED MODULE ===
     if st.session_state.selected_module == "Mustard_Aphid":
         render_mustard_aphid()
-    elif st.session_state.selected_module == "Mustard_Powder":
+    elif st.session_state.selected_module == "Mustard_Powdery":
         render_mustard_powder()
     elif st.session_state.selected_module == "Wheat_White_ear":
         render_wheat_white_ear()
