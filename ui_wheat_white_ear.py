@@ -84,8 +84,8 @@ def render_wheat_white_ear():
     # --- Sample Dropdown Selection ---
     st.markdown("### 🎯 Or select from sample images")
     sample_images = {
-        "Sample 1": "Sample/wheat_white_ear/14a.jpg",
-        "Sample 2": "Sample/wheat_white_ear/D.jpg",
+        "Sample 1": "Sample/wheat_white_ear/14a.JPG",
+        "Sample 2": "Sample/wheat_white_ear/D.JPG",
         "Sample 3": "Sample/wheat_white_ear/IMG_20250218_101815.jpg",
         "Sample 4": "Sample/wheat_white_ear/IMG_20250218_095215.JPG",
         "Sample 5": "Sample/wheat_white_ear/IMG_20250218_113735.jpg",
