@@ -82,11 +82,11 @@ def render_mustard_powder():
     # --- Sample Dropdown Selection ---
     st.markdown("### 🎯 Or select from sample images")
     sample_images = {
-        "Sample 1": "Sample/mustard_powdery/DSC_0033.JPG",
-        "Sample 2": "Sample/mustard_powdery/DSC_0070.JPG",
-        "Sample 3": "Sample/mustard_powdery/DSC_0105.JPG",
-        "Sample 4": "Sample/mustard_powdery/DSC_0187.JPG",
-        "Sample 5": "Sample/mustard_powdery/DSC_0005.JPG",
+        "Sample 1": "Sample/mustard_powdery/IMG_20250224_105252.JPG",
+        "Sample 2": "Sample/mustard_powdery/DSC_0027.JPG",
+        "Sample 3": "Sample/mustard_powdery/DSC_0064.JPG",
+        "Sample 4": "Sample/mustard_powdery/DSC_0068.JPG",
+        "Sample 5": "Sample/mustard_powdery/DSC_0187.JPG",
     }
 
     sample_selection = st.selectbox("Choose a sample:", list(sample_images.keys()))

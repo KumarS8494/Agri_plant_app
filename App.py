@@ -5,8 +5,8 @@ from ui_about import render_about
 
 
 # --- Sidebar UI ---
-st.sidebar.markdown("## 🌿 CropsDiagnosis")
-st.sidebar.markdown("AI-powered Crops diagnosis")
+st.sidebar.markdown("## 🌿 KrishakSakha 🌿")
+st.sidebar.markdown("Empowering Farmers with AI-driven Crop Health Insights")
 
 if "page" not in st.session_state:
     st.session_state.page = "Home"

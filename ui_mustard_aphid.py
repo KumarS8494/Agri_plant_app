@@ -85,11 +85,12 @@ def render_mustard_aphid():
     # --- Sample Dropdown Selection ---
     st.markdown("### 🎯 Or select from sample images")
     sample_images = {
-        "Sample 1": "Sample/mustard_aphid/DS...JPG",
-        "Sample 2": "Sample/mustard_aphid/DSC_0070.JPG",
-        "Sample 3": "Sample/mustard_aphid/DSC_0150.JPG",
-        "Sample 4": "Sample/mustard_powdery/DSC_0018.JPG",
-        "Sample 5": "Sample/mustard_powdery/DSC_0061.JPG",
+        "Sample 1": "Sample/mustard_aphid/DSC_0064.JPG",
+        "Sample 2": "Sample/mustard_aphid/DS.jpg",
+        "Sample 3": "Sample/mustard_aphid/DSC_0018.JPG",
+        "Sample 4": "Sample/mustard_aphid/DSC_0039.JPG",
+        "Sample 5": "Sample/mustard_aphid/DSC_0043.JPG",
+        "Sample 6": "Sample/mustard_aphid/DSC_022.JPG",
     }
 
     sample_selection = st.selectbox("Choose a sample:", list(sample_images.keys()))
