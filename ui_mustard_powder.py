@@ -47,7 +47,7 @@ def predict_and_display(image):
 def render_mustard_powder():
     st.markdown("""
         <h1 style='text-align: center; font-size: 32px;'>
-            🍃 <span style='font-family:Georgia;'><em>PowderyScan</em></span>: Mustard Powder Infestation Analyzer
+            🍃 <span style='font-family:Georgia;'><em>PowderyScan</em></span>: Mustard Powdery Infestation Analyzer
         </h1>
     """, unsafe_allow_html=True)
 
